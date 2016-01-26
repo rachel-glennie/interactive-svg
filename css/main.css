@@ -5,16 +5,35 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
+
+.st0 {
+	fill: #673200;
+}
+
+.st1 {
+	fill: #FFAACA;
+}
+
+.st2 {
+	fill: #C65B00;
+}
+.st3 {
+	fill: none;
+	stroke: #000000;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-miterlimit: 10;}
 
 
 .left-eye,
@@ -24,11 +43,11 @@ html {
 
 @keyframes eye-slide {
 
-	0% { tranform: translate(0, 0); }
+	0% { transform: translate(0, 0); }
 
 	100% { transform: translate(8px, 0); }
-}
 
+}
 
 .left-ear {
 	transition: all .3s linear;
