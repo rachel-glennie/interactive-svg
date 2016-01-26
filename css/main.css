@@ -15,3 +15,16 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+.left-ear {
+	transition: all .3s linear;
+}
+
+.right-ear {
+	transition: all .3s linear;
+}
+
+.bear:hover .left-ear,
+.bear:hover .right-ear {
+	transform: translateY(-8px);
+}
+
