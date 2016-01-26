@@ -15,6 +15,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+
+.left-eye,
+.right-eye {
+	animation: eye-slide 1s linear infinite alternate;
+}
+
+@keyframes eye-slide {
+
+	0% { tranform: translate(0, 0); }
+
+	100% { transform: translate(8px, 0); }
+}
+
+
 .left-ear {
 	transition: all .3s linear;
 }
